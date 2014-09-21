@@ -6,7 +6,7 @@ import com.github.ryanbrainard.richsobjects.api.client.SfdcApiSessionProvider;
 /**
  * @author Ryan Brainard
  */
-@SuppressWarnings("UnusedDeclaration")
+
 public class SfdcApiSessionProviderFromSpringMvc implements SfdcApiSessionProvider {
 
     @Override
