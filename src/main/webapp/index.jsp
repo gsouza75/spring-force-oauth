@@ -44,11 +44,9 @@
     </style>
     <!-- /// -->
     <script type="text/javascript">
-      <!--
       function appname() {
           return location.hostname.substring(0,location.hostname.indexOf("."));
       }
-      // -->
     </script>
   </head>
 

@@ -2,7 +2,7 @@
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
-<jsp:include page="header.jsp"/>
+<body>
     <div class="row">
         <div class="span8 offset2">
                 <table class="table table-bordered table-striped">
@@ -29,7 +29,6 @@
                             													'${contact.getField("id").value}', 
                             													'${contact.getField("firstname").value} ${contact.getField("lastname").value}')"
                             		class="btn btn-danger btn-mini">Delete</a>
-                            	</form>
                             </td>
                         </tr>
                     </c:forEach>
@@ -59,5 +58,5 @@
             })
         }
     };
-</script>
-<jsp:include page="footer.jsp"/>
+	</script>
+</body>

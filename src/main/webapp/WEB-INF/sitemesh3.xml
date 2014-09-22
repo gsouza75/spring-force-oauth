@@ -1,0 +1,4 @@
+<sitemesh>
+	<mapping path="/index.jsp" decorator="/WEB-INF/decorator/basic.jsp"></mapping>
+ 	<mapping path="/*" decorator="/WEB-INF/decorator/main.jsp"/>
+</sitemesh>
